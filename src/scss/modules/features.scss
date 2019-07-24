@@ -1,0 +1,31 @@
+
+.feature{
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+
+  .feature_item{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 26%;
+    justify-content: space-between;
+    margin: 0 50px 10px 0;
+
+    h3{
+      align-self: center;
+      text-align: center;
+      color: #2d3033;
+    }
+    p{
+      align-self: center;
+      color: rgb(108, 114, 121);
+    }
+  }
+}
+
+.logo_feature{
+  align-self: center;
+  max-width: 60px;
+  max-height: 60px;
+  transition: .2s ;
+}

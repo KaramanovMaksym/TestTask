@@ -1,0 +1,275 @@
+@media screen and (max-width: $xlDesktopWidth) {
+  header {
+    height: 700px;
+  }
+
+  .work{
+    .work_item{
+      flex: 1 0 24%;
+      margin-right: 1px;
+      .work_wrapper{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .clients{
+    .clients_item{
+      .clients_comments{
+        .comments_text{
+          font-size: rem(28);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $desktopWidth) {
+  header {
+    height: 600px;
+  }
+
+  .header {
+    height: 80px;
+    border-bottom: 2px #ffffff26 solid;
+
+    .logo {
+      flex: 1 0 40%;
+    }
+
+    .menu {
+      flex: 1 0 60%;  
+
+      ul {
+        li {
+          font-size: rem(11);
+        }
+      }
+    }
+  }
+  .header_text{
+    height: 70%;
+    font-size: rem(16);
+    p{
+      max-width: 75%;
+    }
+  }
+
+  .feature {
+    font-size: rem(14);
+  }
+
+  .work{
+    .work_item{
+      flex: 1 0 25%;
+    }
+  }
+
+  .team{
+    font-size: rem(14);
+    .team_item{
+      flex: 1 0 35%;
+    }
+  }
+  .clients{
+    .clients_item{
+      .clients_comments{
+        .comments_text{
+          font-size: rem(20);
+        }
+      }
+    }
+  }
+  .download{
+    font-size: rem(12);
+  }
+}
+
+@media screen and (max-width: $smDesktopWidth) {
+  header {
+    height: 550px;
+  }
+  .header {
+    height: 60px;
+    .menu {
+      ul {
+        li {
+          font-size: rem(8);
+        }
+      }
+    }
+    .logo {
+      img {
+        width: 65%;
+      }
+    }
+  }
+  .header_text{
+    font-size: rem(14);
+  }
+
+  .feature {
+    font-size: rem(10);
+  }
+
+  .team{
+    font-size: rem(12);
+  }
+
+  .clients{
+    .clients_item{
+      .clients_comments{
+        .comments_text{
+          font-size: rem(16);
+        }
+        .comments_who{
+          font-size: rem(8);
+        }
+      }
+    }
+  }
+
+  .download{
+    text-align: center;
+    font-size: rem(10);
+  }
+
+  footer{
+    font-size: rem(14);
+  }
+}
+
+@media screen and (max-width: $tableWidth) {
+  .button {
+    width: 100px;
+    font-size: rem(10);
+  }
+  header {
+    height: 500px;
+  }
+  .header {
+    height: 40px;
+    border-bottom: 1px #ffffff26 solid;
+    .menu {
+      ul {
+        li {
+          font-size: rem(6);
+        }
+      }
+    }
+  }
+
+  .header_text{
+    font-size: rem(10);
+  }
+
+  .feature{
+    font-size: rem(8);
+    .feature_item{
+      flex: 1 1 38%;
+    }
+  }
+
+  .logo_feature{
+    max-width: 40px;
+    max-height: 40px;
+  }
+
+  .work{
+    .work_item{
+      flex: 1 0 32%;
+    }
+  }
+  .clients{
+    .clients_item{
+      .clients_comments{
+        padding-right: 10%;
+        .comments_text{
+          font-size: rem(10);
+        }
+        .comments_who{
+          font-size: rem(8);
+        }
+        .comments_sliders{
+          padding-top: 3%;
+          label{
+            transform: scale(0.3);
+          }
+        }
+      }
+    }
+  }
+
+  .clients_comments{
+    font-size: rem(8);
+  }
+
+  footer{
+    font-size: rem(12);
+  }
+
+  .footer{
+    flex-direction: column;
+    .footer_about, .footer_location, .footer_share{
+      align-self: flex-start;
+    }
+  }
+}
+
+@media screen and (max-width: $phoneWidth) {
+  header {
+    height: 450px;
+  }
+  .header {
+    height: 30px;
+    .menu {
+      ul {
+        li {
+          font-size: rem(3.5);
+        }
+      }
+    }
+  }
+  .header_text{
+    height: 90%;
+    font-size: rem(7.5);
+    p{
+      max-width: 95%;
+    }
+  }
+  .feature {
+    font-size: rem(7);
+  }
+  .logo_feature{
+    max-width: 25px;
+    max-height: 25px;
+  }
+  .team{
+    .team_item{
+      .team_img{
+        width: 50%;
+      }
+    }
+  }
+  .clients{
+    flex-direction: column;
+  }
+
+  footer{
+    font-size: rem(10);
+  }
+}
+
+@media screen and (max-width: $smPhoneWidth) {
+  header {
+    height: 300px;
+  }
+
+  .header_text{
+    font-size: rem(5.5);
+  }
+
+  footer{
+    font-size: rem(8);
+  }
+}

@@ -1,0 +1,61 @@
+.stretch{
+  width: 162%;
+}
+.social {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  
+  .social_border {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border: 1px #e8ecee solid;
+    margin-right: 5px;
+  }
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  width: 61.5%;
+  // max-width: 61,5%;
+  align-items: center;
+}
+
+.button {
+  display: block;
+  padding: 10px 0;
+  width: 200px;
+  background-color: #e84545;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: rem(13);
+}
+
+.download_item{
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h3{
+    font-weight: 300;
+    font-size: rem(28);
+  }
+  p{
+    font-weight: bold;
+    font-size: rem(13);
+  }
+}

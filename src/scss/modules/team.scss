@@ -1,0 +1,35 @@
+.team{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #000; 
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .team_item{
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    justify-content: space-between;
+    flex: 1 0 20%;
+
+    .team_name_employer{
+      // font-weight: bold;
+      font-size: rem(22);
+    }
+    .team_name_post{
+      text-transform: uppercase;
+      color: rgb(232, 69, 69);
+      font-size: rem(13);
+    }
+    .team_biogrphy{
+      font-size: rem(14);
+    }
+
+    .team_img{
+      width: 100%;
+    }
+  }
+}
+
